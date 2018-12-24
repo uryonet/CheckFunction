@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03EACDF19D381BC57F48403C /* Pods_CheckFunction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A6ED81BA651EFE1418E3AF /* Pods_CheckFunction.framework */; };
 		2A062E3321CF405900784FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A062E3221CF405900784FCA /* AppDelegate.swift */; };
 		2A062E3521CF405900784FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A062E3421CF405900784FCA /* ViewController.swift */; };
 		2A062E3821CF405900784FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A062E3621CF405900784FCA /* Main.storyboard */; };
 		2A062E3A21CF405B00784FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A062E3921CF405B00784FCA /* Assets.xcassets */; };
 		2A062E3D21CF405B00784FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A062E3B21CF405B00784FCA /* LaunchScreen.storyboard */; };
+		2A062E4521CF43FA00784FCA /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A062E4421CF43FA00784FCA /* CryptoViewController.swift */; };
+		2A062E4721CF442600784FCA /* Crypto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A062E4621CF442600784FCA /* Crypto.storyboard */; };
+		2A062E4921CF49A300784FCA /* CryptoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A062E4821CF49A300784FCA /* CryptoExtension.swift */; };
+		2A1A118621D07B7800218BA7 /* QiitaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A118521D07B7800218BA7 /* QiitaService.swift */; };
+		2AEC61FE21D0E46400383B0D /* ErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC61FD21D0E46400383B0D /* ErrorEntity.swift */; };
+		2AEC620021D0F00D00383B0D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC61FF21D0F00D00383B0D /* APIClient.swift */; };
+		2AF0B4DA21CFD099008FA45B /* QiitaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0B4D921CFD099008FA45B /* QiitaItem.swift */; };
+		2AF0B4DC21D03D46008FA45B /* QiitaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0B4DB21D03D46008FA45B /* QiitaAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179A12FE6F8B3173E511D9DD /* Pods-CheckFunction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckFunction.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckFunction/Pods-CheckFunction.release.xcconfig"; sourceTree = "<group>"; };
 		2A062E2F21CF405900784FCA /* CheckFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A062E3221CF405900784FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A062E3421CF405900784FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		2A062E3921CF405B00784FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A062E3C21CF405B00784FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A062E3E21CF405B00784FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A062E4421CF43FA00784FCA /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
+		2A062E4621CF442600784FCA /* Crypto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Crypto.storyboard; sourceTree = "<group>"; };
+		2A062E4821CF49A300784FCA /* CryptoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoExtension.swift; sourceTree = "<group>"; };
+		2A1A118521D07B7800218BA7 /* QiitaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaService.swift; sourceTree = "<group>"; };
+		2AEC61FD21D0E46400383B0D /* ErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEntity.swift; sourceTree = "<group>"; };
+		2AEC61FF21D0F00D00383B0D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		2AF0B4D921CFD099008FA45B /* QiitaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaItem.swift; sourceTree = "<group>"; };
+		2AF0B4DB21D03D46008FA45B /* QiitaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaAPI.swift; sourceTree = "<group>"; };
+		35A6ED81BA651EFE1418E3AF /* Pods_CheckFunction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckFunction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516D823792C5A01D83FD99A4 /* Pods-CheckFunction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckFunction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckFunction/Pods-CheckFunction.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03EACDF19D381BC57F48403C /* Pods_CheckFunction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				2A062E3121CF405900784FCA /* CheckFunction */,
 				2A062E3021CF405900784FCA /* Products */,
+				3A61DF09282D39A84DE6159E /* Pods */,
+				DD14D7E16E7734CA4A5CD40D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +83,33 @@
 				2A062E3921CF405B00784FCA /* Assets.xcassets */,
 				2A062E3B21CF405B00784FCA /* LaunchScreen.storyboard */,
 				2A062E3E21CF405B00784FCA /* Info.plist */,
+				2A062E4421CF43FA00784FCA /* CryptoViewController.swift */,
+				2A062E4621CF442600784FCA /* Crypto.storyboard */,
+				2A062E4821CF49A300784FCA /* CryptoExtension.swift */,
+				2AF0B4D921CFD099008FA45B /* QiitaItem.swift */,
+				2AF0B4DB21D03D46008FA45B /* QiitaAPI.swift */,
+				2A1A118521D07B7800218BA7 /* QiitaService.swift */,
+				2AEC61FD21D0E46400383B0D /* ErrorEntity.swift */,
+				2AEC61FF21D0F00D00383B0D /* APIClient.swift */,
 			);
 			path = CheckFunction;
+			sourceTree = "<group>";
+		};
+		3A61DF09282D39A84DE6159E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				516D823792C5A01D83FD99A4 /* Pods-CheckFunction.debug.xcconfig */,
+				179A12FE6F8B3173E511D9DD /* Pods-CheckFunction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD14D7E16E7734CA4A5CD40D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35A6ED81BA651EFE1418E3AF /* Pods_CheckFunction.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A062E4121CF405B00784FCA /* Build configuration list for PBXNativeTarget "CheckFunction" */;
 			buildPhases = (
+				4A0B827547FC9C41C6EEC8E1 /* [CP] Check Pods Manifest.lock */,
 				2A062E2B21CF405900784FCA /* Sources */,
 				2A062E2C21CF405900784FCA /* Frameworks */,
 				2A062E2D21CF405900784FCA /* Resources */,
+				8F1F423FE976C6C27EB5482A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A062E3D21CF405B00784FCA /* LaunchScreen.storyboard in Resources */,
+				2A062E4721CF442600784FCA /* Crypto.storyboard in Resources */,
 				2A062E3A21CF405B00784FCA /* Assets.xcassets in Resources */,
 				2A062E3821CF405900784FCA /* Main.storyboard in Resources */,
 			);
@@ -130,13 +181,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A0B827547FC9C41C6EEC8E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckFunction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1F423FE976C6C27EB5482A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CheckFunction/Pods-CheckFunction-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HydraAsync/Hydra.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hydra.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckFunction/Pods-CheckFunction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A062E2B21CF405900784FCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2A062E3521CF405900784FCA /* ViewController.swift in Sources */,
+				2AF0B4DA21CFD099008FA45B /* QiitaItem.swift in Sources */,
 				2A062E3321CF405900784FCA /* AppDelegate.swift in Sources */,
+				2AEC61FE21D0E46400383B0D /* ErrorEntity.swift in Sources */,
+				2AF0B4DC21D03D46008FA45B /* QiitaAPI.swift in Sources */,
+				2A062E4921CF49A300784FCA /* CryptoExtension.swift in Sources */,
+				2A1A118621D07B7800218BA7 /* QiitaService.swift in Sources */,
+				2A062E4521CF43FA00784FCA /* CryptoViewController.swift in Sources */,
+				2AEC620021D0F00D00383B0D /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +379,7 @@
 		};
 		2A062E4221CF405B00784FCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516D823792C5A01D83FD99A4 /* Pods-CheckFunction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +392,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uryonet.CheckFunction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2A062E4321CF405B00784FCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179A12FE6F8B3173E511D9DD /* Pods-CheckFunction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uryonet.CheckFunction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

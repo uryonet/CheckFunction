@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.8.0)
+  - HydraAsync (1.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - HydraAsync
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HydraAsync
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  HydraAsync: 8f2ab62d57e140b4ca587ae0f66e1eb04e8e6965
+
+PODFILE CHECKSUM: 097da3952d9d4e099a34384d696be4dea8067ec4
+
+COCOAPODS: 1.5.0
