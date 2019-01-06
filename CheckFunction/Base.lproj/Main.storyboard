@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--動作確認用アプリ-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CheckFunction" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,18 +22,29 @@
                                 <rect key="frame" x="164.5" y="164" width="46" height="30"/>
                                 <state key="normal" title="暗号化"/>
                                 <connections>
-                                    <segue destination="fqv-co-HdA" kind="show" id="EGG-gk-7bk"/>
+                                    <segue destination="fqv-co-HdA" kind="show" id="H0G-87-19A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTF-S7-iz4">
+                                <rect key="frame" x="126" y="226" width="123" height="30"/>
+                                <state key="normal" title="ラジオボタン動作"/>
+                                <connections>
+                                    <segue destination="7Wo-xR-0ZS" kind="show" id="g7n-EJ-Ieo"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="YTF-S7-iz4" firstAttribute="top" secondItem="up4-0Q-U72" secondAttribute="bottom" constant="32" id="YTX-XW-MAq"/>
                             <constraint firstItem="up4-0Q-U72" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dbt-bH-vDJ"/>
                             <constraint firstItem="up4-0Q-U72" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="oHQ-ws-h4V"/>
+                            <constraint firstItem="YTF-S7-iz4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x3f-bX-l7i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ioi-at-ala"/>
+                    <navigationItem key="navigationItem" title="動作確認用アプリ" id="ioi-at-ala">
+                        <barButtonItem key="backBarButtonItem" title="戻るで" id="0Aq-ac-EEP"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,7 +56,15 @@
                 <viewControllerPlaceholder storyboardName="Crypto" id="fqv-co-HdA" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OFO-1a-Yc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1568" y="-145.72713643178412"/>
+            <point key="canvasLocation" x="1578" y="-438"/>
+        </scene>
+        <!--RadioButton-->
+        <scene sceneID="zIx-tX-3Kf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RadioButton" id="7Wo-xR-0ZS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BjK-p9-k3E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1682" y="-136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Kj-aH-iAt">

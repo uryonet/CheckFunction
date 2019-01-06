@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--CryptoController-->
+        <!--暗号化確認用-->
         <scene sceneID="lmD-cB-OCX">
             <objects>
                 <viewController id="PDO-Dx-MnL" customClass="CryptoViewController" customModule="CheckFunction" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,52 +18,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="biF-Bl-Zbs">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="CryptoController" id="uOO-ub-1tC"/>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBo-kY-94b">
-                                <rect key="frame" x="164.5" y="74" width="46" height="30"/>
+                                <rect key="frame" x="164.5" y="84" width="46" height="30"/>
                                 <state key="normal" title="暗号化"/>
                                 <connections>
                                     <action selector="decrypto:" destination="PDO-Dx-MnL" eventType="touchUpInside" id="sWM-WF-fP4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CH-Qb-1Yb">
-                                <rect key="frame" x="164.5" y="114" width="46" height="30"/>
+                                <rect key="frame" x="164.5" y="124" width="46" height="30"/>
                                 <state key="normal" title="復号化"/>
                                 <connections>
                                     <action selector="encrypto:" destination="PDO-Dx-MnL" eventType="touchUpInside" id="oJe-Hk-Huj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="元の文字列：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJZ-AG-I1t">
-                                <rect key="frame" x="135.5" y="236" width="104" height="21"/>
+                                <rect key="frame" x="135.5" y="246" width="104" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暗号鍵文字列：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brP-xd-4nC">
-                                <rect key="frame" x="126.5" y="164" width="122" height="21"/>
+                                <rect key="frame" x="126.5" y="174" width="122" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暗号化された文字列：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMw-gI-2DX">
-                                <rect key="frame" x="100.5" y="267" width="174" height="21"/>
+                                <rect key="frame" x="100.5" y="277" width="174" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="復号化された文字列：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1E-Ie-oUm">
-                                <rect key="frame" x="100.5" y="298" width="174" height="21"/>
+                                <rect key="frame" x="100.5" y="308" width="174" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="共通鍵hash：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG7-6y-vDr">
-                                <rect key="frame" x="134" y="195" width="107" height="21"/>
+                                <rect key="frame" x="134" y="205" width="107" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -81,17 +75,17 @@
                             <constraint firstItem="brP-xd-4nC" firstAttribute="centerX" secondItem="VnZ-xw-kSf" secondAttribute="centerX" id="Ldl-jS-zTX"/>
                             <constraint firstItem="zG7-6y-vDr" firstAttribute="top" secondItem="brP-xd-4nC" secondAttribute="bottom" constant="10" id="NMT-Go-T66"/>
                             <constraint firstItem="QMw-gI-2DX" firstAttribute="centerX" secondItem="VnZ-xw-kSf" secondAttribute="centerX" id="VaE-kY-0DY"/>
-                            <constraint firstItem="biF-Bl-Zbs" firstAttribute="leading" secondItem="tm3-7I-196" secondAttribute="leading" id="XhP-zO-Qgw"/>
                             <constraint firstItem="brP-xd-4nC" firstAttribute="top" secondItem="0CH-Qb-1Yb" secondAttribute="bottom" constant="20" id="Ydq-A2-xiN"/>
                             <constraint firstItem="bJZ-AG-I1t" firstAttribute="top" secondItem="zG7-6y-vDr" secondAttribute="bottom" constant="20" id="dVY-Dd-zp3"/>
-                            <constraint firstItem="biF-Bl-Zbs" firstAttribute="trailing" secondItem="tm3-7I-196" secondAttribute="trailing" id="gyD-Bc-jEu"/>
-                            <constraint firstItem="bBo-kY-94b" firstAttribute="top" secondItem="biF-Bl-Zbs" secondAttribute="bottom" constant="10" id="oom-9Y-U4v"/>
-                            <constraint firstItem="biF-Bl-Zbs" firstAttribute="top" secondItem="tm3-7I-196" secondAttribute="top" id="rb4-Wl-EUC"/>
+                            <constraint firstItem="bBo-kY-94b" firstAttribute="top" secondItem="tm3-7I-196" secondAttribute="top" constant="20" id="pL0-bE-LsW"/>
                             <constraint firstItem="bJZ-AG-I1t" firstAttribute="centerX" secondItem="VnZ-xw-kSf" secondAttribute="centerX" id="wgo-8s-i0l"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tm3-7I-196"/>
                     </view>
-                    <navigationItem key="navigationItem" title="CryptoController" id="gna-DB-fXf"/>
+                    <navigationItem key="navigationItem" title="暗号化確認用" id="1wS-Nf-k03">
+                        <barButtonItem key="backBarButtonItem" title="戻るよ" id="ryJ-Wo-hAE"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="cyptoString" destination="bJZ-AG-I1t" id="pNH-5i-oM8"/>
                         <outlet property="decryptoString" destination="QMw-gI-2DX" id="gcD-IL-uk7"/>
@@ -102,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GsL-4w-gmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980" y="-75.112443778110944"/>
+            <point key="canvasLocation" x="1919.2" y="-75.112443778110944"/>
         </scene>
     </scenes>
 </document>
