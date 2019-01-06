@@ -20,6 +20,8 @@
 		2A97024E21E1CD0600515FD2 /* AuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97024D21E1CD0600515FD2 /* AuthPresenter.swift */; };
 		2A97025021E1CD1300515FD2 /* AuthContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97024F21E1CD1300515FD2 /* AuthContract.swift */; };
 		2A97025221E1D24C00515FD2 /* BaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A97025121E1D24C00515FD2 /* BaseContract.swift */; };
+		2ADC450621E23A4D0027CCF3 /* TestModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC450421E23A4D0027CCF3 /* TestModalViewController.swift */; };
+		2ADC450721E23A4D0027CCF3 /* TestModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC450521E23A4D0027CCF3 /* TestModalViewController.xib */; };
 		2AEA6EE221D709F8000F786C /* RadioButton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA6EE121D709F8000F786C /* RadioButton.storyboard */; };
 		2AEA6EE421D70A74000F786C /* RadioButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6EE321D70A74000F786C /* RadioButtonViewController.swift */; };
 		2AEC61FE21D0E46400383B0D /* ErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC61FD21D0E46400383B0D /* ErrorEntity.swift */; };
@@ -45,6 +47,8 @@
 		2A97024D21E1CD0600515FD2 /* AuthPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
 		2A97024F21E1CD1300515FD2 /* AuthContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContract.swift; sourceTree = "<group>"; };
 		2A97025121E1D24C00515FD2 /* BaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContract.swift; sourceTree = "<group>"; };
+		2ADC450421E23A4D0027CCF3 /* TestModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModalViewController.swift; sourceTree = "<group>"; };
+		2ADC450521E23A4D0027CCF3 /* TestModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestModalViewController.xib; sourceTree = "<group>"; };
 		2AEA6EE121D709F8000F786C /* RadioButton.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RadioButton.storyboard; sourceTree = "<group>"; };
 		2AEA6EE321D70A74000F786C /* RadioButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonViewController.swift; sourceTree = "<group>"; };
 		2AEC61FD21D0E46400383B0D /* ErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEntity.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				2A97024D21E1CD0600515FD2 /* AuthPresenter.swift */,
 				2A97024F21E1CD1300515FD2 /* AuthContract.swift */,
 				2A97025121E1D24C00515FD2 /* BaseContract.swift */,
+				2ADC450421E23A4D0027CCF3 /* TestModalViewController.swift */,
+				2ADC450521E23A4D0027CCF3 /* TestModalViewController.xib */,
 			);
 			path = CheckFunction;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 			files = (
 				2A062E3D21CF405B00784FCA /* LaunchScreen.storyboard in Resources */,
 				2AEA6EE221D709F8000F786C /* RadioButton.storyboard in Resources */,
+				2ADC450721E23A4D0027CCF3 /* TestModalViewController.xib in Resources */,
 				2A062E4721CF442600784FCA /* Crypto.storyboard in Resources */,
 				2A062E3A21CF405B00784FCA /* Assets.xcassets in Resources */,
 				2A062E3821CF405900784FCA /* Main.storyboard in Resources */,
@@ -255,6 +262,7 @@
 				2AEC61FE21D0E46400383B0D /* ErrorEntity.swift in Sources */,
 				2AF0B4DC21D03D46008FA45B /* QiitaAPI.swift in Sources */,
 				2A062E4921CF49A300784FCA /* CryptoExtension.swift in Sources */,
+				2ADC450621E23A4D0027CCF3 /* TestModalViewController.swift in Sources */,
 				2A97025021E1CD1300515FD2 /* AuthContract.swift in Sources */,
 				2AEA6EE421D70A74000F786C /* RadioButtonViewController.swift in Sources */,
 				2A1A118621D07B7800218BA7 /* QiitaService.swift in Sources */,

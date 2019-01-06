@@ -6,6 +6,12 @@
 //  Copyright © 2018 yoneyama ryo. All rights reserved.
 //
 
+// 指紋認証系
+// https://qiita.com/MilanistaDev/items/b0cd432290d18f336766
+// ロードサービスモーダル
+// https://qiita.com/naochi___/items/9f49b869c780d7168111
+// https://github.com/NaokoKubo/CustomAlertView/tree/master/AlertViewSample/AlertViewSample
+
 import UIKit
 
 class RadioButtonViewController: UIViewController, AuthViewProtocol {
@@ -61,6 +67,9 @@ class RadioButtonViewController: UIViewController, AuthViewProtocol {
         checkEmptyForm(textField: emailTextField)
     }
     
+    func isEnableLoginBtn(state: Bool) {
+    }
+    
     @IBAction func tappedBioBtn(_ sender: RadioButton) {
         print(checkSelected()!)
         bioImage.image = UIImage(named: "radio_check")
@@ -93,6 +102,8 @@ class RadioButtonViewController: UIViewController, AuthViewProtocol {
     
     @IBAction func tappedLoginBtn(_ sender: UIButton) {
         presenter.onLogin()
+        let modalViewController = TestModalViewController()
+        present(modalViewController, animated: true, completion: nil)
     }
     
     private func checkSelected() -> RadioButton? {
